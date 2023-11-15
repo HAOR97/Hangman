@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div class="container">
+            <h1>Hangman</h1>
+            <div class="img">
+                <img src="./img/hangman-0.svg" alt="">
+            </div>
+            <div class="menu">
+                <div class="start-menu" >
+                    <input type="text" placeholder="Enter your world">
+                    <button class="">Strat</button>
+                </div>
+                <div class="play-menu" hidden="hidden">
+                    <div class="time">
+                        <span>
+                        </span>
+                    </div>
+                    <div class="characters">
+                        <input type="text">
+                        <button>Check</button>
+                        <span></span>
+                    </div>
+                    <div class="required-word">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="end-menu" hidden="hidden">
+                    <span class="status"></span>
+                    <div class="buttons">
+                        <button class="newBtn">New</button>
+                    </div>
+                </div>
+                <div class="error" hidden>
+                   Error
+                </div>
+            </div>
+
+        </div>
+
+        <script src="script.js"></script>
+</body>
+</html>
