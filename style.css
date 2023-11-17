@@ -51,3 +51,8 @@ img{
 .play-menu input{
     width: 33px;
 }
+@media screen and (max-width:500px){
+    img{
+        width: 200px;
+    }
+}
